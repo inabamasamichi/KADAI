@@ -64,11 +64,7 @@ header {
 
 .right-contents {
   width: 300px;
-  height: px;
   float: left;
-}
-.matsuzaki{
-  width:
 }
 
 .img{
@@ -157,7 +153,7 @@ img{
   text-align: center;
   clear: both;
 }
-.main:after,.card-contents:after,.container:after,.left-contents:after,.right-contents:after,.samune:after.img:after,footer {
+.main:after,.card-contents:after,.container:after,.left-contents:after,.right-contents:after,.samune:after,.img:after,footer {
   clear: both;
   display: block;
   content: " ";
@@ -172,4 +168,8 @@ img{
 .footer,
 .push {
   height: 50px;
+}
+.main{
+  height: 60px;
+
 }
